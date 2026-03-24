@@ -51,6 +51,7 @@ targets:
               --host ios-arm64 \
               --host ios-arm64-simulator \
               --base ${PWD} \
+              --linked
               --out ${PWD}/app/app.bundle \
               ${PWD}/app/app.js
 
